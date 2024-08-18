@@ -11,5 +11,5 @@ This is a simple Todo app built using FastAPI, SQLModel, Docker, and Cloudflare.
 
 ## Installation
 
-- * git clone https://github.com/Qureshihasaan/Todo_app
-- * cd Todo_app
+- git clone https://github.com/Qureshihasaan/Todo_app
+- cd Todo_app
