@@ -17,23 +17,28 @@ Before you begin, ensure you have met the following requirements:
 
 ## Installation
 1. Clone the Repository
-    git clone https://github.com/Qureshihasaan/Todo-app
-    cd Todo-app
+
+    `git clone https://github.com/Qureshihasaan/Todo-app`
+    
+    `cd Todo-app`
+
 2. Set Up Environment Variables
 Create a .env file in the root of your project and add the necessary environment variables:
 
 3. Build and Run the Application Using Docker
 
-    docker-compose up --build
+    `docker-compose up --build`
 
 4. Apply Database Migrations
+
 - Once the containers are up and running, apply the necessary database migrations:
 
 5. Access the Application
-- Your ToDo app should now be running and accessible. Navigate to http://localhost:8000 to view the application.
+
+- Your ToDo app should now be running and accessible. Navigate to `http://localhost:8000` to view the application.
 
 ## Usage
-* Create a Task: Use the POST /tasks/ endpoint to create a new task.
-* Get All Tasks: Use the GET /tasks/ endpoint to view all tasks.
-* Update a Task: Use the PUT /tasks/{task_id} endpoint to update a specific task.
-* Delete a Task: Use the DELETE /tasks/{task_id} endpoint to delete a specific task.
+* Create a Task: Use the POST `/tasks/` endpoint to create a new task.
+* Get All Tasks: Use the GET `/tasks/` endpoint to view all tasks.
+* Update a Task: Use the PUT `/tasks/{task_id}` endpoint to update a specific task.
+* Delete a Task: Use the DELETE `/tasks/{task_id}` endpoint to delete a specific task.
